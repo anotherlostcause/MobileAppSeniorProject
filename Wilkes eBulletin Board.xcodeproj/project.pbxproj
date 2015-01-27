@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EEE2AD1A781BF5001B7A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE2AC1A781BF5001B7A14 /* main.m */; };
+		84EEE2B01A781BF5001B7A14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE2AF1A781BF5001B7A14 /* AppDelegate.m */; };
+		84EEE2B31A781BF5001B7A14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE2B21A781BF5001B7A14 /* ViewController.m */; };
+		84EEE2B61A781BF5001B7A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EEE2B41A781BF5001B7A14 /* Main.storyboard */; };
+		84EEE2B81A781BF5001B7A14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EEE2B71A781BF5001B7A14 /* Images.xcassets */; };
+		84EEE2BB1A781BF5001B7A14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EEE2B91A781BF5001B7A14 /* LaunchScreen.xib */; };
+		84EEE2C71A781BF5001B7A14 /* Wilkes_eBulletin_BoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE2C61A781BF5001B7A14 /* Wilkes_eBulletin_BoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EEE2C11A781BF5001B7A14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EEE29F1A781BF5001B7A14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EEE2A61A781BF5001B7A14;
+			remoteInfo = "Wilkes eBulletin Board";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EEE2A71A781BF5001B7A14 /* Wilkes eBulletin Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wilkes eBulletin Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EEE2AB1A781BF5001B7A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EEE2AC1A781BF5001B7A14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EEE2AE1A781BF5001B7A14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84EEE2AF1A781BF5001B7A14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84EEE2B11A781BF5001B7A14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84EEE2B21A781BF5001B7A14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EEE2B51A781BF5001B7A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EEE2B71A781BF5001B7A14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84EEE2BA1A781BF5001B7A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84EEE2C01A781BF5001B7A14 /* Wilkes eBulletin BoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wilkes eBulletin BoardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EEE2C51A781BF5001B7A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EEE2C61A781BF5001B7A14 /* Wilkes_eBulletin_BoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wilkes_eBulletin_BoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EEE2A41A781BF5001B7A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EEE2BD1A781BF5001B7A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EEE29E1A781BF5001B7A14 = {
+			isa = PBXGroup;
+			children = (
+				84EEE2A91A781BF5001B7A14 /* Wilkes eBulletin Board */,
+				84EEE2C31A781BF5001B7A14 /* Wilkes eBulletin BoardTests */,
+				84EEE2A81A781BF5001B7A14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EEE2A81A781BF5001B7A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EEE2A71A781BF5001B7A14 /* Wilkes eBulletin Board.app */,
+				84EEE2C01A781BF5001B7A14 /* Wilkes eBulletin BoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EEE2A91A781BF5001B7A14 /* Wilkes eBulletin Board */ = {
+			isa = PBXGroup;
+			children = (
+				84EEE2AE1A781BF5001B7A14 /* AppDelegate.h */,
+				84EEE2AF1A781BF5001B7A14 /* AppDelegate.m */,
+				84EEE2B11A781BF5001B7A14 /* ViewController.h */,
+				84EEE2B21A781BF5001B7A14 /* ViewController.m */,
+				84EEE2B41A781BF5001B7A14 /* Main.storyboard */,
+				84EEE2B71A781BF5001B7A14 /* Images.xcassets */,
+				84EEE2B91A781BF5001B7A14 /* LaunchScreen.xib */,
+				84EEE2AA1A781BF5001B7A14 /* Supporting Files */,
+			);
+			path = "Wilkes eBulletin Board";
+			sourceTree = "<group>";
+		};
+		84EEE2AA1A781BF5001B7A14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EEE2AB1A781BF5001B7A14 /* Info.plist */,
+				84EEE2AC1A781BF5001B7A14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EEE2C31A781BF5001B7A14 /* Wilkes eBulletin BoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EEE2C61A781BF5001B7A14 /* Wilkes_eBulletin_BoardTests.m */,
+				84EEE2C41A781BF5001B7A14 /* Supporting Files */,
+			);
+			path = "Wilkes eBulletin BoardTests";
+			sourceTree = "<group>";
+		};
+		84EEE2C41A781BF5001B7A14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EEE2C51A781BF5001B7A14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EEE2A61A781BF5001B7A14 /* Wilkes eBulletin Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EEE2CA1A781BF5001B7A14 /* Build configuration list for PBXNativeTarget "Wilkes eBulletin Board" */;
+			buildPhases = (
+				84EEE2A31A781BF5001B7A14 /* Sources */,
+				84EEE2A41A781BF5001B7A14 /* Frameworks */,
+				84EEE2A51A781BF5001B7A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wilkes eBulletin Board";
+			productName = "Wilkes eBulletin Board";
+			productReference = 84EEE2A71A781BF5001B7A14 /* Wilkes eBulletin Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EEE2BF1A781BF5001B7A14 /* Wilkes eBulletin BoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EEE2CD1A781BF5001B7A14 /* Build configuration list for PBXNativeTarget "Wilkes eBulletin BoardTests" */;
+			buildPhases = (
+				84EEE2BC1A781BF5001B7A14 /* Sources */,
+				84EEE2BD1A781BF5001B7A14 /* Frameworks */,
+				84EEE2BE1A781BF5001B7A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EEE2C21A781BF5001B7A14 /* PBXTargetDependency */,
+			);
+			name = "Wilkes eBulletin BoardTests";
+			productName = "Wilkes eBulletin BoardTests";
+			productReference = 84EEE2C01A781BF5001B7A14 /* Wilkes eBulletin BoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EEE29F1A781BF5001B7A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Wilkes University, Math/CS Department";
+				TargetAttributes = {
+					84EEE2A61A781BF5001B7A14 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					84EEE2BF1A781BF5001B7A14 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 84EEE2A61A781BF5001B7A14;
+					};
+				};
+			};
+			buildConfigurationList = 84EEE2A21A781BF5001B7A14 /* Build configuration list for PBXProject "Wilkes eBulletin Board" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EEE29E1A781BF5001B7A14;
+			productRefGroup = 84EEE2A81A781BF5001B7A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EEE2A61A781BF5001B7A14 /* Wilkes eBulletin Board */,
+				84EEE2BF1A781BF5001B7A14 /* Wilkes eBulletin BoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EEE2A51A781BF5001B7A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EEE2B61A781BF5001B7A14 /* Main.storyboard in Resources */,
+				84EEE2BB1A781BF5001B7A14 /* LaunchScreen.xib in Resources */,
+				84EEE2B81A781BF5001B7A14 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EEE2BE1A781BF5001B7A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EEE2A31A781BF5001B7A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EEE2B31A781BF5001B7A14 /* ViewController.m in Sources */,
+				84EEE2B01A781BF5001B7A14 /* AppDelegate.m in Sources */,
+				84EEE2AD1A781BF5001B7A14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EEE2BC1A781BF5001B7A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EEE2C71A781BF5001B7A14 /* Wilkes_eBulletin_BoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EEE2C21A781BF5001B7A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EEE2A61A781BF5001B7A14 /* Wilkes eBulletin Board */;
+			targetProxy = 84EEE2C11A781BF5001B7A14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EEE2B41A781BF5001B7A14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EEE2B51A781BF5001B7A14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EEE2B91A781BF5001B7A14 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EEE2BA1A781BF5001B7A14 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EEE2C81A781BF5001B7A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84EEE2C91A781BF5001B7A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EEE2CB1A781BF5001B7A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wilkes eBulletin Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EEE2CC1A781BF5001B7A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wilkes eBulletin Board/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84EEE2CE1A781BF5001B7A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wilkes eBulletin BoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wilkes eBulletin Board.app/Wilkes eBulletin Board";
+			};
+			name = Debug;
+		};
+		84EEE2CF1A781BF5001B7A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wilkes eBulletin BoardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wilkes eBulletin Board.app/Wilkes eBulletin Board";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EEE2A21A781BF5001B7A14 /* Build configuration list for PBXProject "Wilkes eBulletin Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EEE2C81A781BF5001B7A14 /* Debug */,
+				84EEE2C91A781BF5001B7A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EEE2CA1A781BF5001B7A14 /* Build configuration list for PBXNativeTarget "Wilkes eBulletin Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EEE2CB1A781BF5001B7A14 /* Debug */,
+				84EEE2CC1A781BF5001B7A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EEE2CD1A781BF5001B7A14 /* Build configuration list for PBXNativeTarget "Wilkes eBulletin BoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EEE2CE1A781BF5001B7A14 /* Debug */,
+				84EEE2CF1A781BF5001B7A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EEE29F1A781BF5001B7A14 /* Project object */;
+}

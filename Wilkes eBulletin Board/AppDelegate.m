@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Wilkes University, Math/CS Department. All rights reserved.
 //
 
+// Test comment -bates
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
